@@ -1,0 +1,186 @@
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+#navbar {
+    height: 60px;
+    background-color: #423f3e !important;
+    border-bottom: solid 1px black;
+}
+
+
+#fname {
+    /* font-family: lucida console; */
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 26px !important;
+    color: rgb(224, 89, 65) !important;
+}
+
+
+.nav-item {
+    text-transform: uppercase;
+    padding-left: 15px;
+}
+
+.nav-item:hover a {
+    border-bottom: 1px solid #fff;
+}
+
+/* Image carousel */
+
+#carImg {
+    opacity: 1.0;
+}
+
+#car-caption {
+    color: #0009;
+    /* background-color: #fff; */
+    border-radius: 15px;
+    position: relative;
+    /* bottom: 160px; */
+    text-decoration: underline;
+}
+
+/* Image gallery */
+
+#col {
+    /* height: 300px; */
+    padding: 10px;
+}
+
+#ImgGallery {
+    height: 200px;
+    width: 100%;
+}
+
+/* Footer */
+
+a {
+    /* display: block; */
+    /* text-align: center; */
+    /* margin-right: 10px; */
+    text-decoration: none;
+    color: black;
+    padding-bottom: 15px;
+}
+
+#footer {
+    background-color: #000;
+    color: #fff;
+}
+
+#flinks {
+    color: #fff;
+}
+
+
+#qlinks1:hover a {
+    color: steelblue;
+}
+
+#qlinks2:hover a {
+    color: steelblue;
+}
+
+#qlinks3:hover a {
+    color: steelblue;
+}
+
+#fBottom {
+    margin-top: 8px;
+}
+
+/* Cards */
+
+.card {
+    margin: 10px;
+}
+
+#modalForm {
+    border-radius: 0px;
+    width: 90%;
+}
+
+#Fname,
+#MobNo,
+#EmailId {
+    border-radius: 0px;
+    border: 0px;
+    border-bottom: solid #000 1px;
+}
+
+
+#OurServices,
+#comments {
+    border-radius: 0px;
+    border: solid #000 1px;
+}
+
+#modalBtn {
+    padding-inline: 30px;
+    border-radius: 50px;
+}
+
+#maDesc {
+    margin-bottom: 16px;
+    margin-top: 19px;
+}
+
+#cardBtn {
+    border-radius: 25px;
+}
+
+/* About us */
+
+/* Contact us */
+
+/* #bcg {
+    background-color: red;
+    border: 1px solid black;
+    height: 600px;
+    width: 50%;
+} */
+
+
+/* careers */
+#card {
+    border-radius: 10px;
+    border-bottom: 5px solid black;
+    border-left: 3px solid black;
+    border-right: none;
+    border-top: none;
+
+
+}
+
+#applyNow {
+    border-radius: 50px;
+}
+
+.careerBanner {
+    max-height: 550px;
+}
+
+#CareerDesc {
+    position: relative;
+    bottom: 150px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+#subRes {
+
+    text-align: center;
+
+}
+
+#clear,
+#join {
+    border-radius: 40px;
+}
